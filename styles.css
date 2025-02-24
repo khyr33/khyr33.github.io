@@ -1,0 +1,29 @@
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    color: #02ffe8;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none; /* Removing the default bullet points */
+}
+
+.nav-links a {
+    color: #02ffe8;
+    text-decoration: none;
+}
+
+/* Body Content Styles */
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Black background */
+    color: white; /* White text */
+}
